@@ -1,17 +1,7 @@
-alert ('Boas vindas ao nosso site!');
-let nome = "Lua";
-let idade = 25;
-let numeroDeVendas = 50;
-let saldoDisponivel = 1000;
+alert ('Olá mundo, sejam bem-vindos ao jogo do número secreto!');
+let numeroSecreto = 34;
+let chute = prompt ('Escolha um número entre 1 e 50');
 
-alert ('Erro! Preencha todos os campos');
-let mensagemDeErro = "Erro! Preencha todos os campos";
-alert(mensagemDeErro);
-
-alert (mensagemDeErro);
-nome = prompt ('Qual o seu nome?');
-idade = prompt ('Qual a sua idade?');
-idade = prompt('Digite a sua idade');
-if (idade >= 18) {
-    alert('Pode tirar a habilitação!'); 
+if (numeroSecreto == chute) {
+    console.log ('Parabéns, você acertou o número secreto! Você é inteligente!');
 }
